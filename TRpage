@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Towhidur Rahman's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            margin: 1rem 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 1rem;
+            color: #3498db;
+            text-decoration: none;
+        }
+        section {
+            padding: 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+            margin-bottom: 1rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            font-size: 1rem;
+        }
+        .contact-form button {
+            padding: 0.5rem;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Towhidur Rahman</h1>
+    <p>Education and Skills Project Management Professional</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#experience">Experience</a>
+    <a href="#cv">Detailed CV</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        Drawing upon 16 years of dedicated experience in education and skills project management, I possess a comprehensive skill set tailored to conceptualize, execute, and oversee a wide array of program endeavors. My academic background encompasses undergraduate and postgraduate qualifications from esteemed UK universities, complementing my professional journey which has primarily revolved around advancing education and skills within the development sector.
+    </p>
+    <p>
+        Currently, I am leading various initiatives at the ILO, with a particular focus on enhancing the quality of Education and TVET/skills development systems in Bangladesh through the Skills 21 project funded by the European Union.
+    </p>
+</section>
+
+<section id="experience">
+    <h2>Experience</h2>
+    <p>
+        <strong>National Programme Officer (NQF & CSEs) - International Labour Organization (ILO) Skills 21</strong><br>
+        July 2019 to Present
+    </p>
+    <p>
+        Responsibilities:
+        <ul>
+            <li>Managing Skills complex projects including outcome-based planning, budgeting, and implementation.</li>
+            <li>Collaborating closely with key stakeholders for seamless program execution.</li>
+            <li>Organizing and providing input in discussions with National Steering Committee and technical committees.</li>
+            <li>Reviewing and providing technical input on development of qualifications systems and quality assurance.</li>
+            <li>Supporting vocational teacher training institutions to transform them into Centres of Skills Excellence (CSEs).</li>
+            <li>Introducing and operationalizing gender planning and responsive action plans in skills development systems.</li>
+        </ul>
+    </p>
+    <p>
+        <strong>Regional Manager South Asia-CSFP & Head of Higher Education - British Council</strong><br>
+        June 2013 to June 2019
+    </p>
+    <p>
+        Responsibilities:
+        <ul>
+            <li>Formulating and executing strategic plans for higher education and skill initiatives.</li>
+            <li>Leading effective advocacy for policy change and strategic influence on policy decisions.</li>
+            <li>Ensuring seamless delivery of services for the Commonwealth Scholarships and Fellowships Plan (CSFP) across six South Asian countries.</li>
+            <li>Overseeing a portfolio of higher education and skill projects including capacity building, quality enhancement, and policy dialogues.</li>
+        </ul>
+    </p>
+    <!-- Add more experiences as necessary -->
+</section>
+
+<section id="cv">
+    <h2>Detailed CV</h2>
+    <p><a href="CV_Md.Towhidur_Rahman.pdf" download>Download Full CV</a></p>
+    <h3>Education</h3>
+    <ul>
+        <li>BSc (Hons) Computing Science - University of Greenwich, London, UK (2006)</li>
+        <li>MBA in International Business - Coventry University, Coventry, UK (2010)</li>
+        <li>Master of Education in Education Leadership and School Improvement - BRAC University (BIED), 2020</li>
+    </ul>
+    <h3>Major Achievements</h3>
+    <ul>
+        <li>Managed the development and endorsement of the Bangladesh National Qualifications Framework (BNQF) by the Minister of Education, involving over 45 agencies.</li>
+        <li>Reviewed policy papers and concept notes for the development of the national Skills Development Policy (2021).</li>
+        <li>Supported the development and implementation of national qualifications packages for TVET trainers, training over 4500 individuals.</li>
+        <li>Established the first-ever digital learning platform for the TVET sector, culminating in the deployment of an advanced E-Campus.</li>
+    </ul>
+    <!-- Add more detailed information as necessary -->
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <form class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+    <p>
+        Connect with me on social media:
+        <a href="https://www.facebook.com/yourprofile" target="_blank">Facebook</a> |
+        <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+    </p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Towhidur Rahman. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
